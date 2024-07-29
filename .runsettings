@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+	<!-- General run configuration -->
+	<RunConfiguration>
+		<EnvironmentVariables>
+			<!-- For debugging selectors, it's recommend to set the following environment variable -->
+			<DEBUG>pw:api</DEBUG>
+		</EnvironmentVariables>
+	</RunConfiguration>
+</RunSettings>

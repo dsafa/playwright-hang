@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>test</title>
+    <script>
+      function onClick() {
+        setTimeout(() => {
+          var target = [];
+          while (true) {
+            target.push(new Array(100_000));
+          }
+
+          const child = document.createElement("div");
+          child.append("child");
+          document.body.appendChild(child);
+        }, 100);
+      }
+    </script>
+  </head>
+  <body>
+    <button type="button" onclick="onClick()">Out of memory</button>
+  </body>
+</html>
